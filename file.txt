@@ -1,0 +1,15 @@
+Sun Jan  1 14:48:19 UTC 2023
+Filesystem                Size      Used Available Use% Mounted on
+/dev/root                 4.9G      2.3G      2.6G  47% /
+devtmpfs                 91.3M         0     91.3M   0% /dev
+tmpfs                    91.4M      8.0K     91.4M   0% /run
+none                     91.4M         0     91.4M   0% /dev/shm
+  20 history tail -5
+  21 history > /tmp/history.txt
+  22 hitory | tail -5
+  23 history | tail -5
+  24 history | tail -5 >> /tmp/file 
+
+vendor_id	: AuthenticX86
+
+33
