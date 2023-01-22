@@ -1,0 +1,8 @@
+  GNU nano 2.9.8  /opt/53_54_evening/lukianenko/myfirstbashscript.sh
+
+#!/bin/bash
+USER=DIMA
+date
+echo "hello" $USER!
+pwd
+echo "Well done Boss"
