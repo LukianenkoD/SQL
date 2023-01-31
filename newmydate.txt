@@ -1,0 +1,6 @@
+20_40_48
+Filesystem                Size      Used Available Use% Mounted on
+/dev/root                 4.9G      2.3G      2.6G  47% /
+devtmpfs                 91.3M         0     91.3M   0% /dev
+tmpfs                    91.4M      4.0K     91.4M   0% /run
+none                     91.4M         0     91.4M   0% /dev/shm
