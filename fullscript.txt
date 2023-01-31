@@ -1,0 +1,21 @@
+#!/bin/bash
+echo "Hello student!"
+echo -n "Write your name: "
+read name
+echo "Welcome to terminal $name"
+mkdir /tmp/test
+touch /tmp/mydate.txt
+date +'%H_%M_%S' >> /tmp/mydate.txt
+echo "Save data"
+for ran in {1..10}
+do
+echo "Data saved. continue work"
+sleep 0.5
+done
+df -h >> /tmp/mydate.txt
+cp /tmp/mydate.txt /opt/newmydate.txt
+for nar in {1..5}
+do
+echo "Well done boss"
+sleep 1
+done
