@@ -1,0 +1,26 @@
+create table Employees (
+employeeid integer primary key auto_increment,
+firstname varchar(50),
+ last_name varchar(50),
+ email varchar(30) unique,
+ salary integer check(salary>=0)
+);
+
+select*from Employees;
+
+insert into Employees(firstname, last_name, email, salary)values('Иван', 'Петров', 'ivan@example.com', 50000);
+insert into Employees(firstname, last_name, email, salary)values('Елена', 'Сидорова', 'elena@example.com', 60000);
+insert into Employees(firstname, last_name, email, salary)values('Алексей', 'Иванов', 'alex@example.com', 55000);
+
+update Employees
+set salary = 6000
+where employeeid = 3;
+
+update Employees
+set salary = salary*2
+where firstname = 'Иван';
+
+delete from Employees
+where employeeid = 2;
+
+drop table Employees;
